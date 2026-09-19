@@ -1,0 +1,23 @@
+# Android Studio and Gradle local state
+.gradle/
+.kotlin/
+.idea/
+*.iml
+local.properties
+
+# Generated Android outputs
+/build/
+**/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# Backend dependencies and local secrets
+node_modules/
+.env
+.env.*
+!.env.example
+
+# Logs and crash dumps
+*.log
+hs_err_pid*.log
